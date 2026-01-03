@@ -2,7 +2,7 @@
 
 Place your birthday music file here as:
 
-**`music.mp3`**
+**`public/music/love ya.mp3`**
 
 The music will:
 

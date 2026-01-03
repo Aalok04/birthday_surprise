@@ -13,19 +13,26 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `Akansha Mishra (Mine Akuu),
 
-Your personalized birthday message goes here.
+Happy birthday my love my baby.
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+I don't know kya bolna hai kaise baatana hai kya ki tu kya hai mere liye.
+kitna kuch bhiiii likhe lu bol lu pr maine ye kabhiii purii tarah express in kr paunga.
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+Having you by my side i thought that is the biggest blessing i guess,sometimes i can be the complete
+mess  but i am pretty sure i can do anything for you my love. 
+
+and aaj tere din hai , aaj se 21 saal phele aapne iss dhartii pr janam leke  kahiiii mujhe jaise manusyo ke jeevan ko 
+ek maksad de diya malik .Or maine humesa hu tere saath chahye kuch bhiiii ho maine hamesha tere saath rahunga , mark my words maine  hamesa hu tere liye chahye koi ho ya na ho.
+
+ye bolne wale or bhii honge prrr you na maine thoda sa jyada hi krunga unse....... chal enjoy your day 
+I loveeeeeee youuuuuuuuuuuuuu once againnnnn!!!!!!!!!!!!!
+
 
 Happy Birthday! 🎉
 
-— [Your Name]`;
+— sirf teraaaa Aalok `;
 
   // Handle page transitions
   useEffect(() => {

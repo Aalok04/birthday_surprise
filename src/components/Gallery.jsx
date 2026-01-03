@@ -9,14 +9,17 @@ function Gallery({ isActive }) {
 
   const photosRef = useRef([]);
   const lightboxImgRef = useRef(null);
-
+  
   const photos = [
-    { src: "/images/pic1.jpeg", alt: "Memory 1" },
-    { src: "/images/pic2.jpeg", alt: "Memory 2" },
-    { src: "/images/pic3.jpeg", alt: "Memory 3" },
-    { src: "/images/pic4.jpeg", alt: "Memory 4" },
-    { src: "/images/pic5.jpeg", alt: "Memory 5" },
-    { src: "/images/pic6.jpeg", alt: "Memory 6" },
+    { src: "/images/pic12.jpeg", alt: "Memory 1" },
+    { src: "/images/pic7.jpeg", alt: "Memory 2" },
+    { src: "/images/pic8.jpeg", alt: "Memory 3" },
+    { src: "/images/pic9.jpeg", alt: "Memory 4" },
+    { src: "/images/pic10.jpeg", alt: "Memory 5" },
+    { src: "/images/pic11.jpeg", alt: "Memory 6" },
+    { src: "/images/pic13.jpg", alt: "Memory 7" },
+    { src: "/images/pic14.jpg", alt: "Memory 8" },
+    { src: "/images/pic15.jpg", alt: "Memory 9" },
   ];
 
   // Reveal photos with GSAP when page becomes active
@@ -139,7 +142,7 @@ function Gallery({ isActive }) {
 
   return (
     <section className="gallery">
-      <h2>📸 Our Beautiful Memories</h2>
+      <h2>📸 Hamarii yaadein </h2>
       <div className="photos">
         {photos.map((photo, index) => (
           <img
